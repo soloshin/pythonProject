@@ -32,13 +32,38 @@
 # print_fio(name, surname, patronymic)
 
 
-# объявление функции
-def print_digit_sum(num):
-    sp = [ int(i)  for  i  in  str(num) ]
-    print(sum(sp))
+# # объявление функции
+# def convert_to_miles(km):
+#     return km * 0.6214
+#
+# # считываем данные
+# num = int(input('add:'))
+#
+# # вызываем функцию
+# print(convert_to_miles(num))
 
-# считываем данные
-n = int(input())
 
-# вызываем функцию
-print_digit_sum(n)
+# # объявление функции
+# def get_days(month):
+#     m = [31,28,31,30,31,30,31,31,30,31,30,31]
+#     return m[month - 1]
+#
+# # считываем данные
+# num = int(input('ввод:'))
+#
+# # вызываем функцию
+# print(get_days(num))
+
+
+# # объявление функции
+# def get_factors(num):
+#     num = []
+#     for i in range(1, n + 1):
+#         if n % i == 0:
+#             num.append(i)
+#     return num
+# # считываем данные
+# n = int(input('ввод:'))
+#
+# # вызываем функцию
+# print(get_factors(n))
